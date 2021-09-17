@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #000000;
+    font-family: 'Open Sans', sans-serif;
+}
+.continer{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+.todo{
+    width: 450px;
+    height: 550px;
+    background-color:#FF2850;
+    padding: 25px;
+    border-radius: 50px;
+}
+input{
+    width: 250px;
+    height: 35px;
+    margin:5px;
+    outline:none;
+    margin-top: 15px;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: bold;
+
+}
+#add{
+    width: 90px;
+    height: 35px;
+    margin:none;
+    outline:none;
+    border-radius: 30px;
+    text-align: center;
+    background-color:#2B2439;
+    color:white;
+    font-size: 20px;
+    font-weight: bold;
+}
+.list {
+    height: 420px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.list li{
+  
+    background-color: #2B2439;
+    color:white;
+    border-radius: 15px;
+    font-size:25px;
+    margin: 20px;
+    list-style:none;
+    display: flex;
+    justify-content: space-between;
+
+}
+.list .strik{
+    text-decoration: line-through;
+    background-color:#67FDA1;
+    color:black;
+}
+.list li button {
+   
+    background-color:crimson;
+    color:whitesmoke;
+    font-size: 30px;
+}
+h1{
+    color: white;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
