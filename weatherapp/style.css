@@ -1,0 +1,113 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(90deg, hsla(339, 100%, 55%, 1) 0%, hsla(197, 100%, 64%, 1) 100%) !important;
+}
+.nav li a{
+    margin: 20px!important;
+    font-size: 15px !important;
+    color: white;
+}
+.btn{
+    margin: 25px !important;
+}
+.nav li a:hover{
+    padding: 10px 30px !important;
+    background-color: blue;
+    border-radius: 30px;
+
+}
+.btn{
+    padding: 10px 30px !important;
+    border-radius: 30px;
+    background-color:blue!important;
+    color: white;
+}
+.navbar-brand{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    
+}
+
+.text h1{
+     margin-left: 30px;
+     color: white;
+}
+.text h3{
+    margin-left: 40px;
+    color: white;
+}
+input{
+    margin: 30px;
+    width: 350px;
+    height: 40px;
+    border-radius: 40px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    font-weight:300 ;
+
+}
+
+button{
+    padding: 10px 25px;
+    background-color: blue;
+    border-radius: 30px;
+    color:white;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    margin: 20px;
+}
+.group{
+    margin-left: 100px;
+}
+.group span{
+    display:inline-block ;
+    margin: 20px;
+    color: white;
+    font-size: 20px;
+}
+.group h1{
+    color:white;
+}
+.icon-bar{
+    background-color: white;
+    width: 60px;
+    height: 30px;
+}
+
+
+@media only screen and (max-width:600px){
+    input{
+        margin: 20px ;
+        width: 250px ;
+        height: 40px ;
+        border-radius: 40px;
+        border: none;
+        outline: none ;
+        font-size: 20px;
+        font-weight:300 ;
+    
+    }
+    .text h1{
+        margin-left: 10px;
+        color: white;
+        font-size: 20px;
+   }
+   .text h3{
+       margin-left: 20px;
+       color: white;
+       font-size: 15px;
+   }
+   .group{
+       margin-left: 10px;
+   }
+   .group h1{
+       font-size: 20px;
+   }
+}

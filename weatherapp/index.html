@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap-theme.min.css" integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>weather app</title>
+</head>
+<body>
+    <div class="continer-fluid">
+        <nav class="navbar ">
+            <div class="container-fluid">
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">&#9729;cloud.me</a>
+              </div>
+              <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">map</a></li>
+                  <li><a href="#">news</a></li>
+                  <li><a href="#">contect</a></li>
+                  <button class="btn navbar-btn">Get app</button>
+                </ul>
+                
+              </div>
+            </div>
+          </nav>
+        <div class="row">
+            <div class="text col-lg-6 col-md-6 col-sm-12">
+                <div class="text">
+              <h1>Different kind of weather</h1>
+              <h1>inside of 24/7 hours</h1>
+              <h3>Best way to know your city weather</h3>
+              <input type="text" placeholder="search city/place"  id="input"  autocomplete="off"/>
+              <button onclick="weather()">Get update</button>
+            </div>
+            </div>
+            <div class="weather col-md-6 col-lg-6 col-sm-12">
+                <div class="group">
+                    <h1>Today weather report</h1>
+                    <img  id="img"src="clear sky.png"width="200px" height="200px" alt="img"><br>
+                    <span id="dis">description</span><br>
+                    <span id="temp">30&deg;c</span>
+                    <span id="speed">1 mph</span><br>
+                    <span id="min-max">min/max</span>
+                    <span  id="hum">&#x1F321;humidity 0%</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script  type="text/javascript" src="script.js"></script>>
+</body>
+</html>
