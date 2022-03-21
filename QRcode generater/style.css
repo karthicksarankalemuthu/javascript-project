@@ -1,0 +1,50 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #3498D8;
+    font-family: 'Open Sans', sans-serif;
+}
+#code{
+    
+   background-color: #fff;
+   margin: 40px;
+   padding: 20px 10px;
+   max-width: 450px;
+   border-radius: 20px;
+}
+h1{
+    margin: 10px;
+}
+input{
+   width: 250px;
+   height: 30px;
+   border-radius: 30px;
+   background-color: none; 
+   margin: 10px;
+   outline: none;
+   border: 3px solid #3498D8;
+}
+button{
+    width: 250px;
+    height: 30px;
+    border-radius: 30px;
+    background-color: #3498D8;
+    margin: 10px; 
+    outline: none;
+    border: none;
+ }
+ img{
+     margin-left: 50px;
+ }
+ #qrcode{
+     margin: 20px;
+ }
